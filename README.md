@@ -1,6 +1,8 @@
 # Botnet Tutorial
 
 # FAQ
+VM credentials: user: pi, password: password
+
 You may run into an issue with reading shadow file, please run the script as sudo or chmod 666 the shadow file
 
 ## VM Setup:
