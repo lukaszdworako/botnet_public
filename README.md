@@ -77,6 +77,7 @@ In `bot.py`, a function for transferring files and replying to the server `reply
 2. - "shadow": find the shadow file and send it back to the server.
 
 3. - "screenshot": take a screenshot, and send it over. Notice that in order to reduce traces, this needs to be done without saving data as a file.
+### Ideally this is done in memory, which is possible, however if you are having issues you can save the file and figure out a way to hide your traces a different way
 
 4. - "ssh": append the key sent from the server to its ssh file.
 
