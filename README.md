@@ -11,6 +11,8 @@ Kali:
 VM can be found here: 
 scp UTORID@dh2020pcXX.utm.utoronto.ca:/virtual/csc427/botnettutorial-vm.zip .
 
+There is a reported issue with the VM if you are not using the latest version of vmware, i.e. vmware version 16. Please update to this version
+
 ## Task 1
 
 There seem to be a bot running in your computer. And looks like it is trying to ping the server constantly. Can you find and block it with techniques introduced during the lecture?
