@@ -8,7 +8,7 @@ Rasperry Desktop:
 Kali:
     This should be setup the same as above ideally, allow it to connect to the outside network. The VMs should be able to talk to one another, and host should be able to talk to the VMs and vice versa.
 
-VM can be found here: https://utoronto-my.sharepoint.com/:u:/g/personal/lukasz_dworakowski_utoronto_ca/EWfmMWg6SRFKiDpV3Jkg5ioBNUapEv0dTqVJLAe_ZnZUUg?e=2SFqF5
+VM can be found here: https://utoronto-my.sharepoint.com/:u:/g/personal/lukasz_dworakowski_utoronto_ca/EWfmMWg6SRFKiDpV3Jkg5ioBNUapEv0dTqVJLAe_ZnZUUg?e=jHb4TB
 
 ## Task 1
 
