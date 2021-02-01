@@ -9,6 +9,8 @@ Kali:
     This should be setup the same as above ideally, allow it to connect to the outside network. The VMs should be able to talk to one another, and host should be able to talk to the VMs and vice versa.
 
 VM can be found here: https://utoronto-my.sharepoint.com/:u:/g/personal/lukasz_dworakowski_utoronto_ca/EWfmMWg6SRFKiDpV3Jkg5ioBNUapEv0dTqVJLAe_ZnZUUg?e=jHb4TB
+*** ABOVE LINK MAY CAUSE ERRORS BECAUSE ONEDRIVE SUCKS PLEASE TRY BELOW SCP ***
+scp UTORID@dh2020pcXX.utm.utoronto.ca:/virtual/csc427/botnettutorial-vm.zip .
 
 ## Task 1
 
