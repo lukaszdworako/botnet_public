@@ -1,5 +1,8 @@
 # Botnet Tutorial
 
+# FAQ
+You may run into an issue with reading shadow file, please run the script as sudo or chmod 666 the shadow file
+
 ## VM Setup:
 There are two VM's required for this tutorial (you can technically do it in 1 VM, but you would need to install wireshark on your computer).
 Rasperry Desktop:
@@ -51,7 +54,7 @@ The server has some built-in functions `send_cmd` and `receive_message` that cou
 
 Before launching the attack, open wireshark and take a look at the traffic. Describe what's happening in terms of anything that would be alerting to a network admin? Write down your observation in `botnet.txt`.
 
-2. - "shadow": of course, we are always interested in the shadow file. (Implementation needs to be done in `bot.py`) Figure out what the passwords on the system are.
+2. - "shadow": of course, we are always interested in the shadow file. (Implementation needs to be done in `bot.py`, `server.py`) Figure out what the passwords on the system are.
 
 Break as many passwords as you can, and include them in `botnet.txt`. 
 
