@@ -11,6 +11,9 @@ Kali:
 VM can be found here: 
 scp UTORID@dh2020pcXX.utm.utoronto.ca:/virtual/csc427/botnettutorial-vm.zip .
 
+
+If you are not in vmware 16, please open **workstation pro** of whatever version you have, right click, manage, hardware compatibility, accept defaults, alter, then start
+
 There is a reported issue with the VM if you are not using the latest version of vmware, i.e. vmware version 16. Please update to this version
 
 ## Task 1
@@ -31,7 +34,7 @@ Functions for communication between the server and bots are implemented for you.
 
 ### server.py
 
-*** If server and client are running on different machines, in server.py please change 127.0.0.1 to the IP of the machine ***
+**If server and client are running on different machines, in server.py please change 127.0.0.1 to the IP of the machine**
 
 If you have the bot and server running on the same machine, then you can use `127.0.0.1` to connect the bot to the server, however it is suggested that you run the server and bot client separately if you can. As well, at some point you may want to run a bot separate from the VM, but some steps may require you to run a bot on a linux machine, this can be done on a kali VM or the provided VM image, some configuration may be required, specifically running `sudo ufw allow 1338` to allow traffic through the firewall for the bot to communicate with the server.
 
