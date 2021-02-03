@@ -74,7 +74,7 @@ In `bot.py`, a function for transferring files and replying to the server `reply
 
 **TODO**
 
-1. - "ddos": receiving the IP and port of the target from the server, the bot would then spam requests to the target till it receives "stop" command (which is implemented for you already). Describe what's happening in terms of anything that would be alerting to a network admin in `botnet.txt`.
+1. - "ddos": receiving the IP and port of the target from the server, the bot would then spam requests to the target till it receives "stop" command (which is implemented for you already). Describe what's happening in terms of anything that would be alerting to a network admin in `botnet.txt` using wireshark as your tool. *In this step the bot should not be attacking 127.0.0.1 ideally so that you can see traffic on the adapter*
 
 2. - "shadow": find the shadow file and send it back to the server.
 
