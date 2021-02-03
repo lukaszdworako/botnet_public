@@ -54,7 +54,7 @@ The server has some built-in functions `send_cmd` and `receive_message` that cou
 
 1. - "ddos" + `http://IP:PORT`: Why would 127.0.0.1:80 get you to download these two scripts?! It's so annoying, let's ddos it. (Don't forget to include the protocol http) (No implementation needed)
 
-Before launching the attack, open wireshark and take a look at the traffic. Describe what's happening in terms of anything that would be alerting to a network admin? Write down your observation in `botnet.txt`.
+Before launching the attack, open wireshark and start the capture, then launch the attack, now take a look at the traffic. Describe what's happening in terms of anything that would be alerting to a network admin? Write down your observation in `botnet.txt`. *In this step the bot should not be attacking 127.0.0.1 ideally so that you can see traffic on the adapter*
 
 2. - "shadow": of course, we are always interested in the shadow file. (Implementation needs to be done in `bot.py`, `server.py`) Figure out what the passwords on the system are.
 
