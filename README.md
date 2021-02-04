@@ -62,8 +62,6 @@ Break as many passwords as you can, and include them in `botnet.txt`.
 
 3. - "screenshot": getting a screenshot of all bots' screen. (Implementation needs to be done in `bot.py`)
 
-Take a screenshot of the bot machine showing that the `bot.py` script is the one that executed the screenshot.
-
 4. - "ssh" + `SSH_KEY`: except for talking to bots through sockets. Let's leave a backdoor as part of botnet maintenance. (Server side: needs to generate a key and send it to bots)
 
 ### bot.py
