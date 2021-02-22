@@ -14,7 +14,7 @@ Kali:
     This should be setup the same as above ideally, allow it to connect to the outside network. The VMs should be able to talk to one another, and host should be able to talk to the VMs and vice versa.
 
 VM can be found here: 
-scp UTORID@dh2020pcXX.utm.utoronto.ca:/virtual/csc427/botnettutorial-vm.zip .
+https://drive.google.com/file/d/1BZPTQzO8RL1j12Mwxev99TCWCLWy3W7o/view?usp=sharing
 
 
 If you are not in vmware 16, please open **workstation pro** of whatever version you have, right click, manage, hardware compatibility, accept defaults, alter, then start
